@@ -1,0 +1,52 @@
+/*para remover todo o espaçamento padrão*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cabecalho{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.cabecalho a{
+    color: white;
+    text-decoration: none;
+}
+.cabe img, .cabe-img{
+    width: 30%;
+}
+.cabe-nav{
+    width: 70%;
+    padding: 50px 0px;
+}
+.cabe{
+    display: flex;
+}
+.albuns{
+    padding: 20px 0px;
+}
+h2{
+    text-align: center;
+}
+.albuns-section {
+    display: inline-flex;
+    text-align: center;
+}
+.albuns-section div{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.albuns-section img{
+    width: 100%;
+    padding: 20px 0px;
+}
+li {
+    list-style: none;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
